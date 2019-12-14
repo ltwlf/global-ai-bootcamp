@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 //
-// Generated with EchoBot .NET Template version v4.6.2
+// Generated with EchoBot .NET Template version v4.5.1
 
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +26,7 @@ namespace TeamsBot.Controllers
             Bot = bot;
         }
 
-        [HttpPost, HttpGet]
+        [HttpPost]
         public async Task PostAsync()
         {
             // Delegate the processing of the HTTP POST to the adapter.
